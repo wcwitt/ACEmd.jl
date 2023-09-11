@@ -19,12 +19,6 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 UnitfulAtomic = "a7773ee8-282e-5fa2-be4e-bd808c38a91a"
 
-[weakdeps]
-Molly = "aa0f7f06-fcc0-5ec4-a7f3-a573f33f9c4c"
-
-[extensions]
-ACE_Molly_ext = "Molly"
-
 [compat]
 ACE1 = "0.11.5"
 ACEbase = "0.4.3"
@@ -33,7 +27,6 @@ CellListMap = "0.8"
 ChunkSplitters = "2"
 FLoops = "0.2"
 Folds = "0.2"
-Molly = "0.15, 0.16, 0.17"
 NeighbourLists = "0.5"
 Reexport = "1"
 StaticArrays = "1"
